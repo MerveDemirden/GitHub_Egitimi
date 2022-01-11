@@ -5,7 +5,7 @@ const express = require('express');
 var port = 3000;
 var app = express();
 var wikiUrls1 = "";
-//mervedemirden Branch'ine aittir
+var conflictVar = "Merve 12345";
 rp(url)
   .then(function(html){
     //success!
