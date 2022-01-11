@@ -5,12 +5,9 @@ const express = require('express');
 var port = 3000;
 var app = express();
 var wikiUrls1 = "";
-<<<<<<< HEAD
-var conflictVar = "Merve 12345";
-=======
-var mervedemirden = "Merve Demirden 12345";
-//mervedemirden Branch'ine aittir
->>>>>>> conflict
+var stash = false;
+var stash1  = true;
+var stash2 = "Merve Demirden";
 rp(url)
   .then(function(html){
     //success!
